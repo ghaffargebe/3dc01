@@ -1,0 +1,36 @@
+<html>
+  <head>
+     <title>Selector ID</title>
+     <style type="text/css">
+        #layer1, #layer2{
+          position:absolute; 
+          top:50;
+        }
+	       #layer1 {
+          left:100; z-index:2
+        }
+	       #layer2 {
+          left:500; z-index:-5
+        }
+     </style>
+  </head>
+  <body>
+     <div id="layer1">
+	     <table border="1" bgcolor="cyan">
+	       <tr> 
+          <td>Ini adalah layer 1<br>Diletakkan pada posisi (100,75)
+          </td>
+        </tr>
+	     </table>
+     </div>
+
+     <div id="layer2">
+	     <table border="1" bgcolor="yellow">
+	       <tr>
+          <td>Ini adalah layer 2<br>Diletakkan pada posisi (130,120)
+          </td>
+        </tr>
+	     </table>
+     </div>
+  </body>
+</html>
